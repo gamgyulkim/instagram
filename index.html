@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+    <script src="script.js"></script>
     <title>예민한 김감귤(@sensitive_gamgyul)</title>
 </head>
 
 <body>
-
+  
     <!-- 상단바 -->
     <div id="top">
         <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png">
@@ -34,7 +35,7 @@
         </div>
 
         <div id="profile_info">
-            <div id="id">sensitive_gamgyul <i class="fas fa-cog"></i></div>
+            <div id="id"><span>sensitive_gamgyul</span> <i class="fas fa-cog"></i></div>
             <button>프로필 편집</button>
         </div>
 
@@ -58,17 +59,19 @@
     <br>
 
     <!-- 프로필 설명 -->
-    <div>
-        <strong>
+    <div id = "profile_Info">
+        <strong id="userInfo">
             예민한 김감귤
-        </strong><br><br>
+        </strong>
+        <br>
+        <span id="summary" style="color:lightgray">개 산책 시키는 사람</span>
+        <br><br>
     </div>
     <div>
-        <p>
+        <p id = "profileDetail">
             나는 따듯한 물에 녹고 싶다.<br>
             오랫동안 너무 춥게만 살지 않았는가.
-        </p>
-        <p>
+        <br><br>
             냠👉<a href="http://instagram.com/bare_hoon">@bare_hoon</a><br>
             <a href="http://asked.kr/kth8854">asked.kr/kth8854</a><br>
         </p>
@@ -134,6 +137,8 @@
             <a href="#"><img src="images/thumbnails_9.jpg" class="thumbnail"></a>
         </div>
     </div>
+ 
+    
 </body>
 
 </html>
